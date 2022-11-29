@@ -3,10 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         theme: {
+          container: {
+            center: true,
+          },
           extend: {
             colors: {
               clifford: "#da373d",
@@ -99,15 +103,111 @@
         </div>
       </div>
     </div>
-    <div class="h-hero w-full bg-black">
-      <img src="./images/vulfpeck-hi-res.jpeg" alt="" class="h-hero w-full" />
+    <div class="w-full bg-black">
+      <img src="./images/vulfpeck-hi-res.jpeg" alt="" class="w-full" />
     </div>
-    <div class="w-full h-96 relative">
+    <div class="w-full h-24 relative">
       <h1
         class="font-mono w-full drop-shadow-lg font-bold italic text-center absolute -top-7 md:-top-16 md:text-9xl text-6xl text-white"
       >
-        music videos
+        video
       </h1>
+    </div>
+    <div class="container flex flex-col md:flex-row">
+      <div class="w-100 md:w-1/2">
+        <iframe
+          class="responsive-video rounded-xl"
+          loading="lazy"
+          src="https://www.youtube.com/embed/qTUnDV3MgVQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="responsive-video rounded-xl"
+          loading="lazy"
+          src="https://www.youtube.com/embed/le0BLAEO93g"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="responsive-video rounded-xl"
+          loading="lazy"
+          src="https://www.youtube.com/embed/yG96RttfZtM"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="responsive-video rounded-xl"
+          loading="lazy"
+          src="https://www.youtube.com/embed/AWBUnr0F3Zo"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="responsive-video rounded-xl"
+          loading="lazy"
+          src="https://www.youtube.com/embed/wvpLjcXU3hY"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="w-100 md:w-1/2">
+        <iframe
+          class="responsive-video rounded-xl"
+          loading="lazy"
+          src="https://www.youtube.com/embed/jRHQPG1xd9o"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="responsive-video rounded-xl"
+          loading="lazy"
+          src="https://www.youtube.com/embed/r4G0nbpLySI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="responsive-video rounded-xl"
+          loading="lazy"
+          src="https://www.youtube.com/embed/dhNfddJRulQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="responsive-video rounded-xl"
+          loading="lazy"
+          src="https://www.youtube.com/embed/9qoXa5_w3Gw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          class="responsive-video rounded-xl"
+          loading="lazy"
+          src="https://www.youtube.com/embed/WQm4R0LM2mE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
   </body>
 </html>
