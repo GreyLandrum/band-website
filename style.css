@@ -3,3 +3,7 @@
   aspect-ratio: 16/9;
   margin: 5% 2.5% 0 2.5%;
 }
+.side {
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+}
