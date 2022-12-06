@@ -7,6 +7,9 @@
     <script>
       tailwind.config = {
         theme: {
+          container: {
+            center: true,
+          },
           extend: {
             colors: {
               clifford: "#da373d",
@@ -19,6 +22,7 @@
             },
             fontFamily: {
               mono: "Vulf Mono Demo",
+              sans: "Vulf Sans Demo",
             },
           },
         },
@@ -99,15 +103,42 @@
         </div>
       </div>
     </div>
-    <div class="h-hero w-full bg-black">
-      <img src="./images/vulfpeck-hi-res.jpeg" alt="" class="h-hero w-full" />
+    <div class="w-full bg-black">
+      <img src="./images/vulfpeck-hi-res.jpeg" alt="" class="w-full" />
     </div>
-    <div class="w-full h-96 relative">
+    <div class="w-full h-24 relative">
       <h1
         class="font-mono w-full drop-shadow-lg font-bold italic text-center absolute -top-7 md:-top-16 md:text-9xl text-6xl text-white"
       >
-        tour information
+        tour
       </h1>
+    </div>
+    <div class="container flex justify-center center">
+      <div
+        class="flex flex-col w-11/12 md:w-full align-center items-center mb-14 rounded-3xl bg-blue"
+      >
+        <h2
+          class="font-sans text-white text-center bold text-3xl md:text-8xl mt-8 mb-14"
+        >
+          VULFPECK ARE NOT <br />
+          CURRENTLY TOURING
+        </h2>
+        <p
+          class="font-mono italic text-beige text-center text-2xl md:text-3xl mb-14"
+        >
+          Leave your email to receive a notification when <br />
+          vulfpeck is touring again
+        </p>
+        <div
+          class="w-11/12 md:w-2/3 h-14 rounded-md center bg-white mb-14 flex flex-row-reverse items-center"
+        >
+          <div
+            class="text-darkred font-mono italic mr-4 border-l pl-3 text-lg md:text-3xl"
+          >
+            submit
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
